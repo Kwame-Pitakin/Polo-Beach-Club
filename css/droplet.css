@@ -1,0 +1,166 @@
+
+.water-droplets img{ 
+  width: 20px;
+  animation: water-droplet 7s linear infinite ;
+}
+.water-droplets{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -70px;
+  
+
+}
+
+@keyframes water-droplet{
+  0%{
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.6;
+  }
+  70%{
+    opacity: 0.6;
+  }
+  100%{
+    transform: translateY(-80vh);
+    opacity: 0;
+  }
+ 
+}
+
+.water-droplets img:nth-child(1) {
+animation-delay: 1s;
+width: 25px;
+
+}
+.water-droplets img:nth-child(2) {
+animation-delay: 4.5s;
+width: 20.5px;
+
+}
+.water-droplets img:nth-child(3) {
+animation-delay: 3s;
+width: 25.7px;
+
+}
+.water-droplets img:nth-child(4) {
+animation-delay: 3.5s;
+}
+.water-droplets img:nth-child(5) {
+animation-delay: 5.5s;
+}
+.water-droplets img:nth-child(6) {
+animation-delay: 2.8s;
+width: 25px;
+
+}
+.water-droplets img:nth-child(7) {
+animation-delay: .5s;
+width: 24.3px;
+
+}
+.water-droplets img:nth-child(8) {
+animation-delay: 1.9s;
+}
+.water-droplets img:nth-child(9) {
+animation-delay: 4.8s;
+width: 30px;
+
+}
+.water-droplets img:nth-child(10) {
+animation-delay: 6.2s;
+}
+.water-droplets img:nth-child(11) {
+animation-delay: 3.9s;
+width: 38px;
+
+}
+.water-droplets img:nth-child(12) {
+animation-delay: 8.89s;
+width: 28px;
+
+}
+.water-droplets img:nth-child(13) {
+animation-delay: 2.2s;
+}
+.water-droplets img:nth-child(14) {
+animation-delay: 1.9s;
+width: 25.6px;
+
+}
+.water-droplets img:nth-child(15) {
+animation-delay: 6.8s;
+width: 32px;
+
+}
+.water-droplets img:nth-child(16) {
+animation-delay: 6.2s;
+width: 27px;
+
+
+}
+.water-droplets img:nth-child(17) {
+animation-delay: 2.2s;
+}
+.water-droplets img:nth-child(18) {
+animation-delay: 1.9s;
+width: 20px;
+
+}
+.water-droplets img:nth-child(19) {
+animation-delay: 4.8s;
+width: 20.65px;
+
+}
+.water-droplets img:nth-child(20) {
+animation-delay: 1.9s;
+}
+.water-droplets img:nth-child(20) {
+animation-delay: 7.9s;
+width: 22.92px;
+
+}
+.water-droplets img:nth-child(21) {
+animation-delay: 4.9s;
+}
+.water-droplets img:nth-child(22) {
+animation-delay: 5.28s;
+width: 25px;
+
+}
+.water-droplets img:nth-child(23) {
+animation-delay: 5.2qs;
+}
+.water-droplets img:nth-child(24) {
+animation-delay: 5.43s;
+width: 24px;
+
+}
+.water-droplets img:nth-child(25) {
+animation-delay: .28s;
+}
+.water-droplets img:nth-child(26) {
+animation-delay: .2s;
+width: 30px;
+
+}
+.water-droplets img:nth-child(27) {
+animation-delay: 6.9s;
+}
+.water-droplets img:nth-child(28) {
+animation-delay: 5.9s;
+width: 22px;
+
+}
+.water-droplets img:nth-child(29) {
+animation-delay: 8.8s;
+width: 20.6px;
+
+}
+.water-droplets img:nth-child(30) {
+animation-delay: 6.2s;
+}
