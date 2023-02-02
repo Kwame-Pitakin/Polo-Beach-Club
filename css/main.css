@@ -31,7 +31,15 @@ h1, h2, h3, h4, h5, h6 {
       rgba(155, 150, 150, 0.047),
       rgba(239, 236, 236, 0.047)
     ),
-    url(../images/hero-image.jpeg);
+    url(../images/Hero-background/AA-2448.jpg);
+  /* background: linear-gradient(
+      to right,
+      rgba(8, 7, 7, 0.718),
+      rgba(155, 150, 150, 0.047),
+      rgba(155, 150, 150, 0.047),
+      rgba(239, 236, 236, 0.047)
+    ),
+    url(../images/hero-image.jpeg); */
   background-size: cover;
   background-position: center;
   position: relative;
