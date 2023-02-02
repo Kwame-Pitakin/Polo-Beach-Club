@@ -278,6 +278,7 @@
 
   .menu-wrap .menu > div {
     border-radius: 0;
+    height: 100%;
   }
 
   .aside-bar .menu-wrap{
