@@ -8,7 +8,7 @@
   z-index: 2;
 }
 .hamburger{
-  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  background: linear-gradient(141deg, #574c4c 0%, #3a241753 51%, #201711 75%);
 }
 .menu-wrap .toggler:checked + .hamburger{
   background:none;
