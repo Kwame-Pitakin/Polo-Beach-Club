@@ -4,7 +4,7 @@
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
-  font-family: "Open Sans",sans-serif;
+  font-family: Manrope, Rubik, sans-serif;
   box-sizing: border-box;
 }
  
@@ -15,7 +15,6 @@ body{
 /* font-family */
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  font-family: Prata,serif;
 }
 
 /* end font family  */
@@ -69,12 +68,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-size: larger;
   margin-bottom: -15px;
-  font-family: "Rubik Spray Paint", cursive;
 }
 
 .logo-name span {
   font-size: 10px;
-  font-family: "SangBleuOGSans", serif;
 }
 
 .navbar {
@@ -111,13 +108,14 @@ header {
 
 .small {
   margin: 0 0 30px 0;
+  font-weight: 100 !important;
 }
 
 
 .aside-bar {
   width: 50px;
   height: 90vh;
-  background: linear-gradient(#574c4c, #201711);
+  background: linear-gradient(#574c4c96, #20171159);
   position: absolute;
   right: 0;
   top: 0;
@@ -147,6 +145,7 @@ header {
   text-align: center;
   top: 50%;
   transform: translateY(-50%);
+  
 }
 
 .socials2 {
@@ -169,6 +168,8 @@ header {
   font-size: 17px;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.151);
+  backdrop-filter: blur(10px);
+
 }
 
 .socials a:hover,
@@ -219,6 +220,7 @@ header {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 100 !important;
 }
 
 
@@ -251,7 +253,7 @@ header {
 
 .image-left-col-8 img{
   background-repeat: no-repeat;
-  width:100%  ;
+  width: 100% ;
   height:auto; 
   background-position: -136.75px 0px;
 
@@ -269,6 +271,7 @@ header {
   width: 70%;
   margin-left: auto;
     margin-right: auto;
+    font-weight: 100 !important;
 }
 
 /* overlay */
@@ -296,7 +299,6 @@ header {
 
 .textblock{
   width: 45%;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   /* padding-right: 4rem; */
 
 }
@@ -333,7 +335,11 @@ header {
   height: 400;
 }
 
-
+.second-sec{
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  font-weight: 100 !important;
+}
 
 
 
@@ -348,6 +354,7 @@ header {
 .col-4-textbox{
   margin: auto;
   width: 80%;
+  
 
 }
 
