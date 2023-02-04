@@ -8,7 +8,7 @@
   z-index: 2;
 }
 .hamburger{
-  background: linear-gradient(141deg, #574c4c 0%, #3a241753 51%, #201711 75%);
+  background: linear-gradient(141deg, #574c4cb5 0%, #3a241753 51%, #20171171 75%);
 }
 .menu-wrap .toggler:checked + .hamburger{
   background:none;
@@ -160,7 +160,6 @@ background: #000;
 
 .menu-wrap .menu > div > div > ul > li > a{
   color: inherit;
-  font-family: "SaolDisplay",serif;
   font-style: normal;
   font-weight: normal;
   font-size: 42px;
