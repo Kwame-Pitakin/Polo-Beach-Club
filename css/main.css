@@ -251,8 +251,8 @@ header {
 
 .image-left-col-8 img{
   background-repeat: no-repeat;
-  width:100%  ;
-  /* height:auto;  */
+  width: 100% ;
+  height:auto; 
   background-position: -136.75px 0px;
 
 }
