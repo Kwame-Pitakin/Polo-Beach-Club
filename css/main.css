@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 100%;
 }
 
-.content {
+.hero-content {
   position: fixed;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
@@ -76,6 +76,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #000;
   color: #fff;
   cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
 }
 
 .logo {
