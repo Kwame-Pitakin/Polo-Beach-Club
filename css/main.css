@@ -50,6 +50,14 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
   display: block;
 }
+/* background video */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 
 .logo {
   cursor: pointer;
