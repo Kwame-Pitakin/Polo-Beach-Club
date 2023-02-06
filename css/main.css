@@ -45,11 +45,11 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   overflow: hidden;
 }
-.hero-video{
+/* .hero-video{
   width: 100%;
   height: auto;
   display: block;
-}
+} */
 /* background video */
 #myVideo {
   position: fixed;
@@ -57,6 +57,15 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
 
 .logo {
