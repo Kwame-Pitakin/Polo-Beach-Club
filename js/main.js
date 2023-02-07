@@ -12,6 +12,6 @@ function myFunction() {
     btn.innerHTML = "Pause";
   } else {
     video.pause();
-    btn.innerHTML = "Play";
+    btn.innerHTML = "Play Video";
   }
 }
